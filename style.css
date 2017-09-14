@@ -1,25 +1,29 @@
+
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 [class*="col-"], footer {
 
-    /* background-color:  #C70039;
-     border: 2px solid black; */
+    padding-top: 20px;
     line-height: 40px;
     text-align: center;
+    color:white;
+    font : bold 20px sans-serif;
 }
 
 img {
-    width: 150px;
+    width: 180px;
     height: auto;
 }
-.white {
-    background-color: white;
+.redflame {
+    background-color: #EF562D;
 }
-.brown {
-    background-color: #C70039;
+.yellow {
+    background-color: #F6D258;
 }
