@@ -1,0 +1,25 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+[class*="col-"], footer {
+
+    /* background-color:  #C70039;
+     border: 2px solid black; */
+    line-height: 40px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+.white {
+    background-color: white;
+}
+.brown {
+    background-color: #C70039;
+}
