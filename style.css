@@ -29,7 +29,7 @@ img {
     bottom: 0;
     left: 100%;
     right: 0;
-    background-color: #F2302C;
+    background-color: #663E10;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -46,7 +46,7 @@ img {
     bottom: 0;
     right: 100%;
     left: 0;
-    background-color: #F2302C;
+    background-color: #663E10;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -78,8 +78,8 @@ p {
 
 
 .redflame {
-    background-color: #EF562D;
+    background-color: #FFF168;
 }
 .yellow {
-    background-color: #F6D258;
+    background-color: #C79F4B;
 }
