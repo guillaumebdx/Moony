@@ -1,3 +1,9 @@
+//
+.disclaimer {
+    font:italic 10px sans-serif;
+    color:yellow;
+
+}
 
 .container {
     padding-right: 15px;
