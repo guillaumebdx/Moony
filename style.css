@@ -1,9 +1,10 @@
-//
+/* début css carte du restaurant */
 .disclaimer {
     font:italic 10px sans-serif;
     color:yellow;
 
 }
+
 
 .container {
     padding-right: 15px;
@@ -13,7 +14,7 @@
 
 }
 
-[class*="col-"], footer {
+.row2 [class*="col-"], footer {
 
     padding-top: 20px;
     line-height: 40px;
@@ -35,7 +36,7 @@ img {
     bottom: 0;
     left: 100%;
     right: 0;
-    background-color: #663E10;
+    background-color: grey;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -52,7 +53,7 @@ img {
     bottom: 0;
     right: 100%;
     left: 0;
-    background-color: #663E10;
+    background-color: grey;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -79,13 +80,76 @@ h3 {
 
 }
 p {
-    font size:8px;
+    font-size:8px;
 }
 
 
 .redflame {
-    background-color: #FFF168;
+    background-color: black;
 }
 .yellow {
-    background-color: #C79F4B;
+    background-color: darkgrey;
 }
+
+/* fin css carte du restaurant */
+
+/* début css map contact */
+#foodora img {
+    width: 240px;
+    height: auto;
+    opacity: 0.7;
+
+}
+
+#foodora img:hover{
+    opacity : 1;
+}
+#foodora p {
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    color:white;
+    font-size: 1em;
+}
+
+#foodora:hover p{
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+    color:white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.row1 [class*="col-"], footer {
+
+    padding-top: 20px;
+    line-height: 40px;
+    color: black;
+    font: 15px sans-serif;
+}
+
+h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.horaires {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/* fin css map contact */
+
+/* début pied de page */
+
+.row3 [class*="col-"], footer {
+    padding-top: 10px;
+    line-height: 15px;
+    text-align: center;
+    font : bold 20px sans-serif;
+    color: white;
+    background-color: black;
+}
+
+/* fin pied de page */
