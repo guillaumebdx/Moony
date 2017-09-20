@@ -1,12 +1,12 @@
 /* début css carte du restaurant */
-.disclaimer {
+.menurestaurant .disclaimer {
     font:italic 10px sans-serif;
     color:yellow;
 
 }
 
 
-.container {
+.menurestaurant .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -14,7 +14,7 @@
 
 }
 
-.row2 [class*="col-"], footer {
+.menurestaurant .row2 [class*="col-"], footer {
 
     padding-top: 20px;
     line-height: 40px;
@@ -23,7 +23,7 @@
     font : bold 20px sans-serif;
 }
 
-img {
+.menurestaurant img {
     width: 180px;
     height: auto;
     -moz-transition: all 0.3s;
@@ -31,7 +31,7 @@ img {
     transition: all 0.3s;
 }
 
-.overlayleft {
+.menurestaurant .overlayleft {
     position: absolute;
     bottom: 0;
     left: 100%;
@@ -43,12 +43,12 @@ img {
     transition: .5s ease;
 }
 
-[class*="col-"]:hover .overlayleft {
+.menurestaurant [class*="col-"]:hover .overlayleft {
     width: 100%;
     left: 0;
 }
 
-.overlayright {
+.menurestaurant .overlayright {
     position: absolute;
     bottom: 0;
     right: 100%;
@@ -60,12 +60,12 @@ img {
     transition: .5s ease;
 }
 
-[class*="col-"]:hover .overlayright {
+.menurestaurant [class*="col-"]:hover .overlayright {
     width: 100%;
     right: 0;
 }
 
-.text {
+.menurestaurant .text {
     color: white;
     font-size: 10px;
     position: absolute;
@@ -75,36 +75,36 @@ img {
     transform: translate(-30%, -30%);
     -ms-transform: translate(-30%, -30%);
 }
-h3 {
+.menurestaurant h3 {
     font-size: 10px;
 
 }
-p {
+.menurestaurant p {
     font-size:8px;
 }
 
 
-.redflame {
+.menurestaurant .redflame {
     background-color: black;
 }
-.yellow {
+.menurestaurant .yellow {
     background-color: darkgrey;
 }
 
 /* fin css carte du restaurant */
 
 /* début css map contact */
-#foodora img {
+.contactmap #foodora img {
     width: 240px;
     height: auto;
     opacity: 0.7;
 
 }
 
-#foodora img:hover{
+.contactmap #foodora img:hover{
     opacity : 1;
 }
-#foodora p {
+.contactmap #foodora p {
     position: relative;
     bottom: 20px;
     left: 80px;
@@ -112,7 +112,7 @@ p {
     font-size: 1em;
 }
 
-#foodora:hover p{
+.contactmap #foodora:hover p{
     position: relative;
     bottom: 20px;
     left: 70px;
@@ -121,7 +121,7 @@ p {
     font-weight: bold;
 }
 
-.row1 [class*="col-"], footer {
+.contactmap .row1 [class*="col-"], footer {
 
     padding-top: 20px;
     line-height: 40px;
@@ -129,12 +129,12 @@ p {
     font: 15px sans-serif;
 }
 
-h4 {
+.contactmap h4 {
     font-size: 15px;
     text-align: center;
 }
 
-.horaires {
+.contactmap .horaires {
     font-size: 0.8em;
     text-align: center;
 }
@@ -143,11 +143,11 @@ h4 {
 
 /* début pied de page */
 
-.row3 [class*="col-"], footer {
+.foot .row3 [class*="col-"], footer {
     padding-top: 10px;
     line-height: 15px;
     text-align: center;
-    font : bold 20px sans-serif;
+    font : bold 0.8em sans-serif;
     color: white;
     background-color: black;
 }
